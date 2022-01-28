@@ -11,7 +11,7 @@ layout: default
     {{ content }}
 
     {% assign imgpath = page.path%}
-    {% capture my_variable %}{{imgpath |remove: page.name}}media{% endcapture %}
+    {% capture my_variable %}{{imgpath |remove: page.name}}{% endcapture %}
     
 
 

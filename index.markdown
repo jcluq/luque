@@ -9,6 +9,8 @@ layout: home
 
   fuck nfts
 
+  fuck these services which just buy out time and data
+
   fuck this fake language 
 
   give me back megaupload
