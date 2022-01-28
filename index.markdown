@@ -4,3 +4,17 @@
 
 layout: home
 ---
+
+  fuck the "metaverse"
+
+  fuck nfts
+
+  fuck this fake language 
+
+  give me back megaupload
+
+  give me back rapidshare
+
+  where did everything went
+
+  into the wallet of some asshole maybe

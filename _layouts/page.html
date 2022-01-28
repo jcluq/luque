@@ -9,6 +9,19 @@ layout: default
 
   <div class="post-content">
     {{ content }}
-  </div>
 
+    {% assign imgpath = page.path%}
+    {% capture my_variable %}{{imgpath |remove: page.name}}media{% endcapture %}
+    
+
+
+    {% include image-gallery.html folder=my_variable%}
+
+
+    
+
+  </div>
+  
 </article>
+
+
