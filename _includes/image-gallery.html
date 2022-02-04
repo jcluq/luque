@@ -1,9 +1,69 @@
-<style>
-    .image-gallery {overflow: auto; margin-left: -1%!important;}
-    .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
-    .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
-    .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
-    .image-gallery li a img {width: 100%; display: block;}
-</style>
-<p>hey</p>
-<ul class="image-gallery">{% for file in site.static_files %}{% if file.path contains include.folder %}{% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' %}{% assign filenameparts = file.path | split: "/" %}{% assign filename = filenameparts | last | replace: file.extname,"" %}<li><a href="{{ file.path | relative_url }}" title="{{ filename }}"><img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ file.path | relative_url }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" /><span>{{ filename }}</span></a></li>{% endif %}{% endif %}{% endfor %}</ul>
+
+
+
+
+
+
+<div class="slideshow-container">
+
+
+    {% for file in site.static_files %}{% if file.path contains include.folder %}
+        {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' or file.extname == '.PNG' or file.extname == '.png' %}
+            {% assign filenameparts = file.path | split: "/" %}{% assign filename = filenameparts | last | replace: file.extname,"" %}
+            <div class="mySlides fade">
+     
+                <img src="{{ site.url}}{{ file.path | relative_url }}" style="width:100%">
+         
+              </div>
+              {% endif %}
+              {% endif %}
+              {% endfor %}  
+          
+                <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  {% for file in site.static_files %}{% if file.path contains include.folder %}
+  {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' or file.extname == '.PNG' or file.extname == '.png' %}
+      {% assign i = i|plus:1 %}
+      {% capture my_var %}currentSlide({{i}}){% endcapture %}
+        <span class="dot" onclick="{{my_var}}"></span>
+        {% endif %}
+        {% endif %}
+        {% endfor %}  
+  
+
+</div>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+</script>

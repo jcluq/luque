@@ -4,21 +4,37 @@
   {%- include head.html -%}
 
   <body>
-
+    
     {% include sidebar.html %}
 
   
-
-
+    
+    <div class= "divider">
     <main class="content" aria-label="Content">
-      <div class="wrapper">
+     
+       <div class="wrapper">
+        
         {{ content }}
-      </div>
-      <div class="meddia"></div>
-    </main>
+        </div>
+        
+       
+      
+   
 
+    
   
-
+  
+    
+   </main>
+   <div class="pmedia">
+    <div class="pmedia">
+      {% assign imgpath = page.path%}
+      {% capture my_variable %}{{imgpath |remove: page.name}}{% endcapture %}
+      
+  
+  
+      {% include image-gallery.html folder=my_variable%}
+    </div>
   </body>
 
 </html>

@@ -11,9 +11,9 @@ This position outputs two different values:
 
 - A X-axis value: Given by the id of the "current sensor", his is determined by order, so, the first sensor from left two right which is reading the hand distance. This value ranges from 0-5 
 
-- A Y-axis value: Given by the data given from the "current sensor". The sensor provides a distance reading that ranges from 7 to 200.
+- A Y-axis value: Given by the data given from the "current sensor". The sensor provides a distance reading that ranges from 7—200.
 
-This values are then mapped to fit midi message formats. The X axis is being used for "CC" messages, so it is given a value between 0-127. The Y Axis recieves a value between 36-60 to fit two different Octaves (1-3 Octave ranges).
+This values are then mapped to fit midi message formats. The X axis is being used for "CC" messages, so it is given a value between 0—127. The Y Axis recieves a value between 36-60 to fit two different Octaves (1—3 Octave ranges).
 
 Finally, the AxisBar outputs the data in a Serial format which is then "parsed" by a MidiConverter for interfacing it with any midi-capable software.
 

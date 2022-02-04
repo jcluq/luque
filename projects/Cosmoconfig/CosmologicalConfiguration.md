@@ -2,6 +2,8 @@
 layout: page
 title: Cosmological Configuration
 permalink: /CosmologicalConfiguration/
+
+
 ---
 
 
@@ -13,3 +15,4 @@ The work was built with the idea of understanding and exploring how a -sacred- p
 The artwork used 1200 meters of EL wire and 3000 meters of copper wire.
 
 
+– - —

@@ -1,14 +1,19 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  {%- include head.html -%}
 
+  <body>
+    
+    {% include sidebar.html %}
 
+  
+    
+    <div class= "divider">
+    <main class="content" aria-label="Content">
+     
+       <div class="wrapper">
+        
+        {{ content }}
+        </div>  
 
-  {{ content }}
-
-</div>
