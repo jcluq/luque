@@ -6,7 +6,7 @@ permalink: /FRDYER/
 
 # FRDYER
 
-![Cover](./photos/DSC08678.JPG)
+
 
 
 
