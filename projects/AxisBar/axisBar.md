@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: AxisBar
 permalink: AxisBar
 ---
