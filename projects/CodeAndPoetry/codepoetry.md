@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Code and Poetry Workshop
+permalink: /CodePeotry/
 ---
 
 

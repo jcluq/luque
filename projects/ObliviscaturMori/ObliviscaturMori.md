@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Obliviscatur Mori
-permaliknk: /OlbiviscaturMori/
+permalink: /CosmologicalConfiguration/
 ---
 
 
