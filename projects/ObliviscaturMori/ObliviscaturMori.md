@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Obliviscatur Mori
-permalink: /CosmologicalConfiguration/
+permalink: /ObliviscaturMori/
 ---
 
 
