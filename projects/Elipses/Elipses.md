@@ -4,7 +4,9 @@ title: Elipses
 permalink: /Elipses/
 ---
 
+This project is currently under development and is subject to change.
 
+This project is not only an artwork but also a research about digital fabrication processes. KiCad and AutoDesk Fusion 360 are the softwares used for the physical design, later having the parts 3D printed and the PCBs proffesionally outsourced. ESP32 microcontrollers and C++ programming are used for the control of the devices.
 
 Ellipses are a series of kinetic sculptures which base their design on a string loop throwing contraption referred to as a string shooter.
 
