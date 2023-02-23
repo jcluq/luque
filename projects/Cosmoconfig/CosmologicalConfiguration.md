@@ -7,12 +7,15 @@ permalink: /CosmologicalConfiguration/
 ---
 
 
-Cosmological Configuration is an immersive light instalation consisting of Electroluminiscent (EL) Wire sections distributed in space.
-The disposition of the wires in a dark space construct the feeling of an enviornment thanks to the light contrast and the lines which intersect. This interaction among the lights build a sensation on the spectator which is encoraged to walk and stay in the place for a duration of time.
+Cosmological Configuration 1 was a in situ light installation made up of 1200 of EL Wire. 
 
-The work was built with the idea of understanding and exploring how a -sacred- place create a special disposition for who populates it. The darkness in which the artwork is contained pretends to emulate the sensation of infinity, which contrast with the strings of light. 
+The spectator was presented to a dense light array of lights, on a very dark and soothing enviornment, with the objective to present a space of contemplation towards a sculpture which occupied and changed the room enviornment by the dimming of the lights.
 
-The artwork used 1200 meters of EL wire and 3000 meters of copper wire.
+It served as a great research project, as I had the oportunity to learn about pcb manufacture, weilding, spatial thinking, digital fabrication, interaction and microcontrollers. I consider this was a solid step towards what I dream of doing. 
+
+To all of those who helped, even by a little, to bring this piece up, specially on those last 2 weeks, thanks you, this artwork is for all of you. 
+
+
 
 
 <iframe class ="video" src="https://www.youtube.com/embed/EAcQojAMU7s">
